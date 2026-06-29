@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio - Mahasiswa Sistem Informasi Universitas Jember">
+    <title>Izul Haq Nur Kholili | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="#home" class="navbar-brand">Izul.</a>
+            <ul class="navbar-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="navbar-cta">Kontak</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Buka menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-close" id="mobileClose">&times;</button>
+        <a href="#home" class="mobile-link" data-nav>Home</a>
+        <a href="#about" class="mobile-link" data-nav>About</a>
+        <a href="#skills" class="mobile-link" data-nav>Skills</a>
+        <a href="#portfolio" class="mobile-link" data-nav>Portfolio</a>
+        <a href="#contact" class="mobile-link" data-nav>Kontak</a>
+    </div>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="hero-badge-dot"></span>
+                Mahasiswa Aktif 2025
+            </div>
+            <h1 class="hero-title">
+                Halo, Saya <span class="gradient-text">Izul</span> Haq Nur Kholili<br>
+                Mahasiswa Sistem Informasi<br>
+                Universitas Jember
+            </h1>
+            <p class="hero-description">
+                Saya adalah mahasiswa di Fakultas Ilmu Komputer yang passionate 
+                dengan dunia teknologi, web development, dan data science. 
+                Sedang dalam perjalanan belajar dan berkembang untuk menjadi developer yang handal.
+            </p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">
+                    Lihat Project
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    Hubungi Saya
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="2025">0</div>
+                    <div class="stat-label">Tahun Masuk UNEJ</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="5">0<span class="accent">+</span></div>
+                    <div class="stat-label">Project Kuliah</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="2">0<span class="accent">+</span></div>
+                    <div class="stat-label">Organisasi Aktif</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="100">0<span class="accent">%</span></div>
+                    <div class="stat-label">Semangat Belajar</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section class="section" id="about">
+        <div class="section-inner">
+            <div class="section-header fade-in">
+                <span class="section-label">✦ Tentang Saya</span>
+                <h2 class="section-title">Mahasiswa Sistem Informasi</h2>
+                <p class="section-description">Perkenalan singkat tentang diri saya dan perjalanan akademik di Universitas Jember.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image fade-in">
+                    <img src="./image/foto_diri.png" alt="Foto Profil">
+                </div>
+                <div class="about-content fade-in">
+                    <h3>Halo! Saya <span class="gradient-text">Izul Haq Nur Kholili</span></h3>
+                    <p>Saya adalah mahasiswa semester awal program studi Sistem Informasi di Fakultas Ilmu Komputer, Universitas Jember. Saya memiliki ketertarikan yang besar di bidang teknologi informasi, terutama dalam pengembangan web dan analisis data.</p>
+                    <p>Saat ini saya sedang fokus mempelajari dasar-dasar pemrograman, database, dan desain UI/UX. Saya juga aktif berorganisasi di kampus untuk mengembangkan soft skill dan networking.</p>
+                    <p>Visi saya adalah menjadi seorang profesional di bidang teknologi yang mampu menciptakan solusi digital yang bermanfaat bagi masyarakat.</p>
+                    <!-- <div class="about-info-grid">
+                        <div class="info-item">
+                            <span class="info-label">Nama Lengkap</span>
+                            <span class="info-value">Izul Haq Nur Kholili</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Universitas</span>
+                            <span class="info-value">Universitas Jember</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Fakultas</span>
+                            <span class="info-value">Ilmu Komputer</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Program Studi</span>
+                            <span class="info-value">Sistem Informasi</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Angkatan</span>
+                            <span class="info-value">2025</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Asal</span>
+                            <span class="info-value">Jember, Jawa Timur</span>
+                        </div>
+                    </div> -->
+                    <div class="about-buttons">
+                        <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+                        <a href="#" class="btn btn-outline">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section class="section section-alt" id="skills">
+        <div class="section-inner">
+            <div class="section-header fade-in">
+                <span class="section-label">✦ Keahlian</span>
+                <h2 class="section-title">Skill yang Sedang Dipelajari</h2>
+                <p class="section-description">Teknologi dan tools yang sedang saya pelajari dan kembangkan selama kuliah.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">🌐</div>
+                    <div class="skill-name">HTML & CSS</div>
+                    <div class="skill-description">Membangun struktur dan styling website, responsive design, dan layout modern.</div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-width="75"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">⚡</div>
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-description">Dasar-dasar pemrograman web interaktif, DOM manipulation, dan event handling.</div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-width="55"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">🐍</div>
+                    <div class="skill-name">Python</div>
+                    <div class="skill-description">Bahasa pemrograman untuk pengolahan data, otomatisasi, dan analisis data.</div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-width="60"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">🗄️</div>
+                    <div class="skill-name">Database (PgAdmin)</div>
+                    <div class="skill-description">Merancang database relasional, query SQL, dan manajemen data.</div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-width="50"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">🎨</div>
+                    <div class="skill-name">UI/UX Design</div>
+                    <div class="skill-description">Figma, prinsip desain antarmuka, user research, dan wireframing.</div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-width="65"></div></div>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">📊</div>
+                    <div class="skill-name">Microsoft Office</div>
+                    <div class="skill-description">Excel untuk analisis data, PowerPoint untuk presentasi, dan Word untuk dokumentasi.</div>
+                    <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PENGALAMAN ==================== -->
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-header fade-in">
+                <span class="section-label">✦ Pengalaman</span>
+                <h2 class="section-title">Aktivitas & Organisasi</h2>
+                <p class="section-description">Kegiatan akademik dan organisasi yang saya ikuti.</p>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-col">
+                    <h3 class="exp-heading">🎓 Pendidikan</h3>
+                    <div class="timeline">
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-date">2025 - Sekarang</div>
+                            <div class="timeline-title">S1 Sistem Informasi</div>
+                            <div class="timeline-company">Fakultas Ilmu Komputer, Universitas Jember</div>
+                            <div class="timeline-description">Mempelajari dasar-dasar sistem informasi, pemrograman, database, rekayasa perangkat lunak, dan analisis bisnis.</div>
+                        </div>
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-date">2022 - 2025</div>
+                            <div class="timeline-title">SMA</div>
+                            <div class="timeline-company">SMA Negeri Pakusari</div>
+                            <div class="timeline-description">Lulus dengan jurusan Teknik. Aktif di ekstrakurikuler PIK-R.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-col">
+                    <h3 class="exp-heading">🏢 Organisasi & Kegiatan</h3>
+                    <div class="timeline">
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-date">2026 - Sekarang</div>
+                            <div class="timeline-title">Anggota Muda Mapala Balwana</div>
+                            <div class="timeline-company">Mahasiswa Pecinta Alam</div>
+                            <div class="timeline-description">Terlibat dalam kepanitiaan acara kampus dan program kerja bidang teknologi.</div>
+                        </div>
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-date">2025 - Sekarang</div>
+                            <div class="timeline-title">Anggota - Himpunan Mahasiswa SI</div>
+                            <div class="timeline-company">HIMASIF UNEJ</div>
+                            <div class="timeline-description">Aktif dalam kegiatan organisasi serta meningkatkan kemampuan diri.</div>
+                        </div>
+                        <!-- <div class="timeline-item fade-in">
+                            <div class="timeline-date">2024</div>
+                            <div class="timeline-title">Peserta Bootcamp Web Development</div>
+                            <div class="timeline-company">Komunitas Developer Jember</div>
+                            <div class="timeline-description">Mengikuti pelatihan intensif HTML, CSS, dan JavaScript selama 1 bulan.</div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PORTFOLIO ==================== -->
+    <section class="section section-alt" id="portfolio">
+        <div class="section-inner">
+            <div class="section-header fade-in">
+                <span class="section-label">✦ Portfolio</span>
+                <h2 class="section-title">Project & Tugas Kuliah</h2>
+                <p class="section-description">Beberapa project dan tugas yang sudah saya kerjakan selama belajar.</p>
+            </div>
+            <div class="filter-wrapper fade-in">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Website</button>
+                <button class="filter-btn" data-filter="data">Database</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="other">Lainnya</button>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid">
+
+                <!-- Project 1 -->
+                <div class="card fade-in portfolio-item" data-category="web">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80" alt="Website Pribadi" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-category">Website</span>
+                        <h3 class="card-title">Portfolio Website Pribadi</h3>
+                        <p class="card-description">Website portfolio pribadi menggunakan HTML, CSS, dan JavaScript untuk menampilkan profil dan project kuliah.</p>
+                        <div class="card-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="card fade-in portfolio-item" data-category="web">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80" alt="Toko Online" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-category">Dekstop App</span>
+                        <h3 class="card-title">Toko Sederhana</h3>
+                        <p class="card-description">Project tugas akhir semester membuat console app toko sederhana dengan fitur keranjang belanja dan checkout.</p>
+                        <div class="card-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <!-- <span class="tag">PHP</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="card fade-in portfolio-item" data-category="data">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Analisis Data" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-category">Database</span>
+                        <h3 class="card-title">Perancangan Database Rush</h3>
+                        <p class="card-description">Membuat perancangan database untuk UMKM Rush Lapangan Badminton di Jember menggunakan Oracle dan PgAdmin.</p>
+                        <div class="card-tags">
+                            <span class="tag">PgAdmin</span>
+                            <!-- <span class="tag">Pandas</span>
+                            <span class="tag">Matplotlib</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="card fade-in portfolio-item" data-category="design">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80" alt="UI Design" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-category">UI/UX Design</span>
+                        <h3 class="card-title">Design Aplikasi WaterWise</h3>
+                        <p class="card-description">Mendesain tampilan aplikasi subsidi air agar lebih user-friendly menggunakan Figma.</p>
+                        <div class="card-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI Design</span>
+                            <!-- <span class="tag">Wireframe</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <!-- <div class="card fade-in portfolio-item" data-category="web">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" alt="Perpustakaan" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-category">Website</span>
+                        <h3 class="card-title">Sistem Informasi Perpustakaan</h3>
+                        <p class="card-description">Project tugas mata kuliah basis data membuat sistem informasi perpustakaan sederhana dengan MySQL.</p>
+                        <div class="card-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Project 6 -->
+                <div class="card fade-in portfolio-item" data-category="other">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&q=80" alt="Presentasi" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-category">Lainnya</span>
+                        <h3 class="card-title">Materi Presentasi E-Learning</h3>
+                        <p class="card-description">Membuat presentasi interaktif tentang konsep e-learning dan sistem informasi pendidikan untuk tugas kuliah.</p>
+                        <div class="card-tags">
+                            <span class="tag">PowerPoint</span>
+                            <span class="tag">Canva</span>
+                            <span class="tag">Presentasi</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="section" id="contact">
+        <div class="section-inner">
+            <div class="section-header fade-in">
+                <span class="section-label">✦ Kontak</span>
+                <h2 class="section-title">Mari Terhubung</h2>
+                <p class="section-description">Tertarik untuk berkolaborasi atau ingin berkenalan? Hubungi saya!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <div class="contact-info-card">
+                        <h3>Informasi Kontak</h3>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <div class="contact-item-label">Email</div>
+                                <div class="contact-item-value"><a href="mailto:izzulhaqnurkholili@gmail.com">izzulhaqnurkholili@gmail.com</a></div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <div class="contact-item-label">WhatsApp</div>
+                                <div class="contact-item-value"><a href="https://wa.me//6285785193136">+62 857 8519 3136</a></div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <div class="contact-item-label">Lokasi</div>
+                                <div class="contact-item-value">Jember, Jawa Timur</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🎓</div>
+                            <div>
+                                <div class="contact-item-label">Fakultas</div>
+                                <div class="contact-item-value">Fakultas Ilmu Komputer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrap fade-in">
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/mlgvrlvn" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Masukkan nama Anda" required>
+                            <span class="form-error" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="email@contoh.com" required>
+                            <span class="form-error" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subjek</label>
+                            <input type="text" id="subject" name="subject" class="form-input" placeholder="Kolaborasi / Tanya-tanya / dll" required>
+                            <span class="form-error" id="subjectError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                            <span class="form-error" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">Kirim Pesan</button>
+                        <div class="form-success" id="formSuccess" style="display: none;">
+                            ✅ Terima kasih! Pesan Anda sudah terkirim.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">Izul Haq Nur Kholili.</div>
+                    <p class="footer-description">Mahasiswa Sistem Informasi, Fakultas Ilmu Komputer, Universitas Jember. Passionate tentang teknologi dan siap belajar hal baru.</p>
+                </div>
+                <div>
+                    <h3 class="footer-title">Navigasi</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Minat</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Analysis</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Machine Learning</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Kontak</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:izzulhaqnurkholili@gmail.com">izzulhaqnurkholili@gmail.com</a></li>
+                        <li><a href="#">Fasilkom UNEJ</a></li>
+                        <li><a href="#">Jember, Jawa Timur</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; <span id="year"></span> Izul Haq Nur Kholili — Mahasiswa Sistem Informasi UNEJ</p>
+                <p class="footer-copyright">Dibuat dengan HTML, CSS & JavaScript ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
